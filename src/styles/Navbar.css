@@ -21,16 +21,3 @@
 }
 
 
-.angle {
-  background-image: linear-gradient(
-    135deg,
-    #fff 0%,
-    #fff 50%,
-    transparent 50.1%
-  );
-  background-size: 0% 100%;
-
-  &:hover {
-    background-size: 220% 100%;
-  }
-}

@@ -4,7 +4,7 @@ import "../styles/Footer.css";
 
 function Footer() {
   return (
-    <div className="footer container-fluid bg-dark">
+    <div className="footer container-fluid ">
       <div className="row ">
         <div className="footer-empty col-md-4"></div>
         <div className="footer-copyright col-md-4">

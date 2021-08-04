@@ -1,0 +1,21 @@
+
+.contact-body {
+    padding: 3em;
+    height: 87vh;
+    
+  }
+.contact-body h1 {
+
+    color: rgb(0, 255, 234);
+    font-size: 3rem;
+    font-family: 'Jockey One', sans-serif;
+  }
+
+  .contact-body p {
+
+    color: rgb(0, 255, 234);
+    font-size: 2rem;
+    font-family: 'Jura', sans-serif;
+  }
+
+
