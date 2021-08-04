@@ -1,0 +1,20 @@
+
+.footer-body{
+
+    height: 200px;
+  
+  }
+  
+  .footer-copyright {
+    margin: 0;
+
+    text-align: center;
+    color: rgb(0, 255, 234);
+    font-size: 1rem;
+    font-family: "Jura";
+  }
+  
+  .footer-icons img{
+    width: 30 px;
+    height: 240 px ;
+  }
