@@ -10,10 +10,19 @@
   z-index: -99;
   overflow: hidden;
 } */
-
-.background{
+html{
   overflow: hidden;
+  height: 100% !important;
+}
+body {
+  height: 100%;
+  overflow: auto;
+}
+.background{
+  /* overflow: scroll; */
+
   background: rgb(0, 0, 0);
+  
   /* background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%); */
 
 }
@@ -21,14 +30,17 @@
   .first,
   .second,
   .third {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     z-index: -100;
+    background-repeat: no-repeat
+    
   }
   .first,
   .second,
   .third {
     position: absolute;
+
   }
   .second,
   .third {
@@ -37,12 +49,15 @@
   .holder {
     /* height: 100vh; */
     position: absolute;
+
     /* z-index: 0; */
   }
   .first {
+    
     animation: first 10s infinite;
     background: linear-gradient(#015547, #252525);
     z-index: 10;
+
   }
     @keyframes first {
       0% {opacity: 1.0;}
@@ -59,10 +74,12 @@
     }
 
   .second {
+    
     animation: second 10s infinite; animation-delay: 1s;
     
     background: linear-gradient(#252525, #000000);
     z-index: 20;
+
   }
     @keyframes second {
       0% {opacity: 0;}
@@ -83,6 +100,7 @@
     animation-delay: 8s;
     background: linear-gradient(#252525, #361400);
     z-index: 30;
+
   }
     @keyframes third {
       0% {opacity: 0;}

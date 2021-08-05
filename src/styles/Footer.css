@@ -1,4 +1,6 @@
-
+.footer{
+  z-index: -50;
+}
 .footer-body{
     height: 200px;
   

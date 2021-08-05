@@ -18,3 +18,10 @@
     font-family: 'Jura', sans-serif;
   }
 
+.buzzBlock {
+  /* background-image: url("../img/ezgif.com-gif-maker.gif"); */
+  width: 200px;
+  height: 200px;
+  background: black;
+  border-radius: 10em;
+}

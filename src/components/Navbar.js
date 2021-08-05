@@ -19,7 +19,7 @@ function Navbar() {
           {/* <a >About Me</a> */}
         </li>
         <li className="nav-item">
-          <Link className="nav-link" aria-current="page" href="#" to="/portfolio">Portfolio</Link>
+          <Link className="nav-link" aria-current="page" href="#" to="/projects">Projects</Link>
         </li>
         <li className="nav-item">
         <Link className="nav-link" aria-current="page" href="#" to="/contact">Contact</Link>

@@ -1,0 +1,30 @@
+.projects-body {
+  padding: 3em;
+  height: 87vh;
+}
+.projects-body h1 {
+  color: rgb(0, 255, 234);
+  font-size: 3rem;
+  font-family: "Jockey One", sans-serif;
+}
+
+.projects-body p {
+  color: rgb(0, 255, 234);
+  font-size: 2rem;
+  font-family: "Jura", sans-serif;
+}
+
+.btn-primary {
+  color: #212529 !important;
+  font-family: "Jura", sans-serif;
+  background-color: rgb(0, 255, 234) !important;
+  border-color: rgb(0, 255, 234) !important;
+}
+
+.btn-primary:hover {
+  color: rgb(0, 0, 0) !important;
+  background-color: rgb(0, 255, 234) !important;
+  border-color: #8ad3d3;
+  /* box-shadow: 0px 0px 6px rgb(0, 255, 234) inset, 0px 0px 10px rgb(255, 174, 0)!important; */
+}
+

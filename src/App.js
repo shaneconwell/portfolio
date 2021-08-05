@@ -9,7 +9,7 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import About from './components/About';
-import Portfolio from './components/Portfolio';
+import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Header from './components/Navbar';
@@ -32,8 +32,8 @@ function App() {
         <Route path="/about">
           <About />
         </Route>
-        <Route path="/portfolio">
-          <Portfolio />
+        <Route path="/projects">
+          <Projects />
         </Route>
         <Route path="/contact">
           <Contact />
