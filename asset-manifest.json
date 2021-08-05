@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.0bc9f7e8.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.f66f0d5d.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.f66f0d5d.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.b62a7de1.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.1d82112d.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.1d82112d.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.872b2f22.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.872b2f22.js.map",
     "static/css/2.4be38407.chunk.css": "/react-portfolio/static/css/2.4be38407.chunk.css",
@@ -10,14 +10,17 @@
     "static/js/2.13b54a5b.chunk.js.map": "/react-portfolio/static/js/2.13b54a5b.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/2.4be38407.chunk.css.map": "/react-portfolio/static/css/2.4be38407.chunk.css.map",
-    "static/css/main.0bc9f7e8.chunk.css.map": "/react-portfolio/static/css/main.0bc9f7e8.chunk.css.map",
-    "static/js/2.13b54a5b.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.13b54a5b.chunk.js.LICENSE.txt"
+    "static/css/main.b62a7de1.chunk.css.map": "/react-portfolio/static/css/main.b62a7de1.chunk.css.map",
+    "static/js/2.13b54a5b.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.13b54a5b.chunk.js.LICENSE.txt",
+    "static/media/creativeCorner.c4534a5f.png": "/react-portfolio/static/media/creativeCorner.c4534a5f.png",
+    "static/media/movieShelf.c6e60dbd.png": "/react-portfolio/static/media/movieShelf.c6e60dbd.png",
+    "static/media/weatherDashboard.ec9e3690.png": "/react-portfolio/static/media/weatherDashboard.ec9e3690.png"
   },
   "entrypoints": [
     "static/js/runtime-main.872b2f22.js",
     "static/css/2.4be38407.chunk.css",
     "static/js/2.13b54a5b.chunk.js",
-    "static/css/main.0bc9f7e8.chunk.css",
-    "static/js/main.f66f0d5d.chunk.js"
+    "static/css/main.b62a7de1.chunk.css",
+    "static/js/main.1d82112d.chunk.js"
   ]
 }
