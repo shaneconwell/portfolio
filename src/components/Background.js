@@ -5,7 +5,7 @@ export default function Background() {
   return (
     <div className="background">
         <div>
-          {/* <img href= . */}
+          <div className="image"></div>
           <div className="holder">
             <div className="first"></div>
             <div className="second"></div>
