@@ -26,18 +26,18 @@ function Card(props) {
                       <div className="project-name">
                         <h4>{project.name}</h4>
                       </div>
-                      <div className="project-decription">
+                      <div className="project-decription p-2">
                         <p >{project.description}</p>
-                        <button
-                          id="github-button"
-                          className="btn-primary m-2 position-absolute bottom-0 end-0 "
-                        >
+
+                          <a href={project.github}>
                           <img
-                            src={`${project.github}`}
-                            className="img-fluid"
+                            src= "https://res.cloudinary.com/dllm7cfrg/image/upload/v1628217627/GitHub-Mark-Light-64px_bphuev.png"
+                            className="github p-2 position-absolute bottom-0 end-0"
                             alt="..."
                           ></img>
-                        </button>
+                          </a>
+                          <a className="p-1 ps-2 deployLink position-absolute bottom-0 start-0" href={project.deploy}>LINK</a>
+
                       </div>
                     </div>
                   </div>

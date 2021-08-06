@@ -1,5 +1,7 @@
 .footer{
-  z-index: -50;
+  z-index: 0;
+  background-image: linear-gradient( rgba(0, 0, 0, 0), rgb(0, 0, 0));
+  
 }
 .footer-body{
     height: 200px;
@@ -18,4 +20,13 @@
   .footer-icons img{
     width: 30 px;
     height: 240 px ;
+  }
+  .footerGithub{
+    height:3em;
+  }
+  .footerGithub:hover{
+    height:3em;
+  }
+  .footerLinkdin{
+    height:3em;
   }

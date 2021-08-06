@@ -7,24 +7,11 @@ function Navbar({ currentPage, handlePageChange }) {
   return (
     <div className="navbar navbar-expand-lg navbar-light align-self-end ">
       <div className="container justify-content-between ">
-        <a
-          className="col-4 navbar-brand angle"
-          aria-current="page"
-          href="#home"
-          onClick={() => handlePageChange('Home')}
-          // to="/react-portfolio/"
-        >
+        <a className="col-4 navbar-brand" aria-current="page" href="#about" onClick={() => handlePageChange("About")}>
           <h1>SHANE CONWELL</h1>
         </a>
 
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -35,10 +22,12 @@ function Navbar({ currentPage, handlePageChange }) {
           <ul className="navbar-nav">
             <li className="nav-item">
               <a
-                className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+                className={
+                  currentPage === "About" ? "nav-link active" : "nav-link"
+                }
                 aria-current="page"
-                href="#about"
-                onClick={() => handlePageChange('About')}
+                href="#/about"
+                onClick={() => handlePageChange("About")}
                 // to="/react-portfolio/about"
               >
                 About Me{" "}
@@ -47,10 +36,12 @@ function Navbar({ currentPage, handlePageChange }) {
             </li>
             <li className="nav-item">
               <a
-                className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+                className={
+                  currentPage === "Projects" ? "nav-link active" : "nav-link"
+                }
                 aria-current="page"
                 href="#/projects"
-                onClick={() => handlePageChange('Projects')}
+                onClick={() => handlePageChange("Projects")}
                 // to="/react-portfolio/projects"
               >
                 Projects
@@ -58,10 +49,12 @@ function Navbar({ currentPage, handlePageChange }) {
             </li>
             <li className="nav-item">
               <a
-                className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+                className={
+                  currentPage === "Contact" ? "nav-link active" : "nav-link"
+                }
                 aria-current="page"
-                href="#contact"
-                onClick={() => handlePageChange('Contact')}
+                href="#/contact"
+                onClick={() => handlePageChange("Contact")}
                 // to="/react-portfolio/contact"
               >
                 Contact
@@ -69,10 +62,12 @@ function Navbar({ currentPage, handlePageChange }) {
             </li>
             <li className="nav-item">
               <a
-                className="nav-link"
+                className={
+                  currentPage === "Resume" ? "nav-link active" : "nav-link"
+                }
                 aria-current="page"
-                href="#resume"
-                onClick={() => handlePageChange('Resume')}
+                href="#/resume"
+                onClick={() => handlePageChange("Resume")}
                 // to="/react-portfolio/resume"
               >
                 Resume

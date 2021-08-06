@@ -11,11 +11,11 @@ import Resume from "./components/Resume";
 
 // In our main App component, we are rendering only single instances of Header and Navbar and several instances of Card
 export default function App() {
-  const [currentPage, setCurrentPage] = useState("Home");
+  const [currentPage, setCurrentPage] = useState("Projects");
   const renderPage = () => {
-    if (currentPage === "Home") {
-      return <Home />;
-    }
+    // if (currentPage === "Home") {
+    //   return <Home />;
+    // }
     if (currentPage === "About") {
       return <About />;
     }
