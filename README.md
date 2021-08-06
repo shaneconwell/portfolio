@@ -22,7 +22,7 @@
   ## Usage
   A link to the deployed application can be found [here](https://shaneconwell.github.io/react-portfolio/).
 
-![Screenshot](./src/img/Screen Shot 2021-08-05 at 11.52.25 PM.png)
+![Screenshot](https://res.cloudinary.com/dllm7cfrg/image/upload/v1628222261/Screen_Shot_2021-08-05_at_11.57.11_PM_nzzq7o.png)
 
   ## License
   This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
