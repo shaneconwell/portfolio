@@ -1,5 +1,6 @@
-import React, { useState } from "react";
-
+import React from 'react';
+import { HashRouter, Route, Switch } from "react-router-dom";
+// import { BrowserRouter as Router, Route } from "react-router-dom";
 import Background from "./components/Background";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
@@ -10,34 +11,35 @@ import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 
 // In our main App component, we are rendering only single instances of Header and Navbar and several instances of Card
-export default function App() {
-  const [currentPage, setCurrentPage] = useState("Projects");
-  const renderPage = () => {
-    // if (currentPage === "Home") {
-    //   return <Home />;
-    // }
-    if (currentPage === "About") {
-      return <About />;
-    }
-    if (currentPage === "Projects") {
-      return <Projects />;
-    }
-    if (currentPage === "Contact") {
-      return <Contact />;
-    }
-    return <Resume />;
-  };
-
-  const handlePageChange = (page) => setCurrentPage(page);
-
+function App() {
   return (
-    <div className="min-100-vh">
-      <Background />
+    <HashRouter basename='/'>
+      <div className="min-100-vh">
+        <Background />
+        <Navbar />
 
-      <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
-      {renderPage()}
+        <Switch>
+          <Route exact path="/"component={Home} />
 
-      <Footer />
-    </div>
+          <Route exact path="/about" component={About} />
+
+          <Route exact path="/projects"component={Projects} />
+
+          <Route exact path="/contact"component={Contact} />
+
+          <Route exact path="/resume"component={Resume} />          
+
+        </Switch>
+        <Footer />
+      </div>
+      </HashRouter>
+
+    // <div>
+    //   <Navbar />
+    //   <AboutMe />
+    //
+    // </div>
   );
 }
+
+export default App;

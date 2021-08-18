@@ -15,7 +15,7 @@ export default function Resume() {
   <li class="list-group-item">Express</li>
   <li class="list-group-item">React</li>
   <li class="list-group-item">Node.js</li>
-</ul>
+        </ul>
         </div>
       </div>
     </div>

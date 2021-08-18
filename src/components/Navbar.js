@@ -1,82 +1,37 @@
-import React from "react";
-// import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 // Here we are importing a CSS file as a dependency
-import "../styles/Navbar.css";
+import '../styles/Navbar.css';
 
-function Navbar({ currentPage, handlePageChange }) {
+function Navbar() {
   return (
-    <div className="navbar navbar-expand-lg navbar-light align-self-end ">
-      <div className="container justify-content-between ">
-        <a className="col-4 navbar-brand" aria-current="page" href="#about" onClick={() => handlePageChange("About")}>
-          <h1>SHANE CONWELL</h1>
-        </a>
+<div className="navbar navbar-expand-lg navbar-light align-self-end ">
+  <div className="container justify-content-between ">
+  <Link className="col-4 navbar-brand angle" aria-current="page" href="#" to="/"><h1>SHANE CONWELL</h1></Link>
+  
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="justify-content-end collapse navbar-collapse" id="navbarNav">
+      <ul className="navbar-nav">
+        <li className="nav-item">
+        <Link className="nav-link" aria-current="page" href="#" to="/about">About Me </Link>
+          {/* <a >About Me</a> */}
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" aria-current="page" href="#" to="/projects">Projects</Link>
+        </li>
+        <li className="nav-item">
+        <Link className="nav-link" aria-current="page" href="#" to="/contact">Contact</Link>
+        </li>
+        <li className="nav-item">
+        <Link className="nav-link" aria-current="page" href="#" to="/resume">Resume</Link>
+        </li>
 
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div
-          className="justify-content-end collapse navbar-collapse"
-          id="navbarNav"
-        >
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <a
-                className={
-                  currentPage === "About" ? "nav-link active" : "nav-link"
-                }
-                aria-current="page"
-                href="#/about"
-                onClick={() => handlePageChange("About")}
-                // to="/react-portfolio/about"
-              >
-                About Me{" "}
-              </a>
-              {/* <a >About Me</a> */}
-            </li>
-            <li className="nav-item">
-              <a
-                className={
-                  currentPage === "Projects" ? "nav-link active" : "nav-link"
-                }
-                aria-current="page"
-                href="#/projects"
-                onClick={() => handlePageChange("Projects")}
-                // to="/react-portfolio/projects"
-              >
-                Projects
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                className={
-                  currentPage === "Contact" ? "nav-link active" : "nav-link"
-                }
-                aria-current="page"
-                href="#/contact"
-                onClick={() => handlePageChange("Contact")}
-                // to="/react-portfolio/contact"
-              >
-                Contact
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                className={
-                  currentPage === "Resume" ? "nav-link active" : "nav-link"
-                }
-                aria-current="page"
-                href="#/resume"
-                onClick={() => handlePageChange("Resume")}
-                // to="/react-portfolio/resume"
-              >
-                Resume
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
+      </ul>
     </div>
+  </div>
+</div>
   );
 }
 

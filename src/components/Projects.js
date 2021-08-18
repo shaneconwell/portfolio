@@ -34,7 +34,7 @@ const projects = [
   {
     id: 4,
     name: "Team Profile Generator",
-    description: "A personal virtual library created for a group project using data from The Movie Database API that keeps track of movies you've watched and allows you to find new titles to watch next.",
+    description: "A Node.js command-line application that takes in information about a team gathered using the npm package inquirer, then using javascript converts that information into a dynamically generated html profile page.",
     img: "https://res.cloudinary.com/dllm7cfrg/image/upload/v1628214677/teamProfileGenerator-screenshot_s7ifrx.png",
     github: " https://github.com/shaneconwell/team-profile-generator",
     deploy: "https://drive.google.com/file/d/16dfvD2JhlFxjb6PlLQ6fWEyNDEGOZV7N/view",
@@ -64,90 +64,5 @@ const projects = [
 
 export default function Projects() {
   return <Card projects={projects} />;
-  // return (
-    // <div className="projects-body container-xlg">
-    //   <div className="row">
-    //     <div>
-    //       <h1 id="projects" className="text-center ">
-    //         Projects
-    //       </h1>
-    //       <div id="my-projects" className=" mx-auto">
-    //         <div className=" project-container container   pb-5">
-    //           <div className="row  justify-content-around my-5 ">
-    //             <div className=" card  col-12 col-sm-12 mx-auto col-md-3 ">
-    //               <div className="p-2 py-4">
-    //                 <img
-    //                   src={movieShelfScreenshot}
-    //                   className="img-fluid"
-    //                   alt="..."
-    //                 ></img>
-    //                 <div className="text">
-    //                   <h4>Movie Shelf</h4>
-    //                 </div>
-    //                 <div>
-    //                   <button
-    //                     id="github-button"
-    //                     className="btn-primary m-2 position-absolute bottom-0 end-0 ">
-    //                     <img
-    //                   src={github}
-    //                   className="img-fluid"
-    //                   alt="..."
-    //                 ></img>
-    //                   </button>
-    //                 </div>
-    //               </div>
-    //             </div>
-    //             <div className={"card col-12 col-sm-12 mx-auto col-md-3 "}>
-    //               <div className="p-2 py-4">
-    //                 <img
-    //                   src={creativeCornerScreenshot}
-    //                   className="img-fluid"
-    //                   alt="..."
-    //                 ></img>
-    //                 <div className="text">
-    //                   <h4>Creative Corner</h4>
-    //                 </div>
-    //                 <div>
-		// 			<button
-    //                     id="github-button"
-    //                     className="btn-primary m-2 position-absolute bottom-0 end-0 ">
-    //                     <img
-    //                   src={github}
-    //                   className="img-fluid"
-    //                   alt="..."
-    //                 ></img>
-    //                   </button>
-    //                 </div>
-    //               </div>
-    //             </div>
-    //             <div className={"card col-12 col-sm-12 mx-auto col-md-3 "}>
-    //               <div className="p-2 py-4 ">
-    //                 <img
-    //                   src={weatherDashboardScreenshot}
-    //                   className="img-fluid"
-    //                   alt="..."
-    //                 ></img>
-    //                 <div className="text">
-    //                   <h4>Weather Dashboard</h4>
-    //                 </div>
-    //                 <div className="">
-		// 			<button
-    //                     id="github-button"
-    //                     className="btn-primary m-2 position-absolute bottom-0 end-0 ">
-    //                     <img
-    //                   src={github}
-    //                   className="img-fluid"
-    //                   alt="..."
-    //                 ></img>
-    //                   </button>
-    //                 </div>
-    //               </div>
-    //             </div>
-    //           </div>
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
-  // );
+
 }
