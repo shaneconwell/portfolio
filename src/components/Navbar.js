@@ -15,7 +15,7 @@ function Navbar() {
     <div className="justify-content-end collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
         <li className="nav-item">
-        <Link className="nav-link" aria-current="page" href="#" to="/about">About Me </Link>
+        <Link className="nav-link" aria-current="page" href="#" to="/">About Me </Link>
           {/* <a >About Me</a> */}
         </li>
         <li className="nav-item">
