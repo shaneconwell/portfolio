@@ -1,55 +1,137 @@
 
 .resume-body {
-    padding: 3em;
+  display: flex;
 
   }
 
 .resume-body div {
+  
+      margin: auto;
       font-size: 2.5rem;
       font-family: 'Jockey One', sans-serif;
-      color: #fff;
+      color: rgb(211, 113, 2);
       text-align: center;
       text-decoration: none;
   }
-  .resume-body a {
+
+.resumeLink{
+padding: 2em;
+  }
+
+.resumeLink a {
     font-size: 2.5rem;
     font-family: 'Jockey One', sans-serif;
     color: #fff;
+    text-decoration: none;
+  }
 
-    text-decoration: underline;
-}
-.resume-body a:hover {
+.rresumeLink a:hover {
   color: rgb(0, 255, 234)!important;
-  background-color: #000000!important;
   border-color: #8ad3d3;
-  border-radius: 60px;
   line-height: 15px;
-  box-shadow: 0px 0px 6px rgb(0, 255, 234) inset, 0px 0px 10px rgb(255, 174, 0)!important;
-
-
+  text-shadow: 0px 0px 6px #8ad3d3 !important;
 }
 
-  .resume-body p {
-
-    color: rgb(0, 255, 234);
-    font-size: 2rem;
-    font-family: 'Jura', sans-serif;
-  }
 
 
-  .skillList {
-   font-size: large;
-  
-  }
-  .skillList li {
-    color: rgb(0, 255, 234) !important;
-    font-family: "Jura", sans-serif;
-    background-color: rgb(20, 20, 20) !important;
+.floatingIcons{
+ 
+ margin-top: 20px;
+padding: 5px;
+  background-color: rgb(20, 20, 20) !important;
     border-radius: 10px!important;
     border: 1px solid rgb(0, 255, 234) !important;
-    margin: 1rem !important;
-    
-
     box-shadow: 0px 1px 10px rgb(0, 255, 234) inset, 0px 10px 15px rgba(0, 0, 0, 0.363)!important;
   
+}
+.floatingIcons > *{
+  font-size: 4em;
+  /* padding: 6px; */
+  margin: 10px;
+
+}
+
+  @keyframes floating {
+    0% {
+      transform: translatey(0px);
+    }
+    50% {
+      transform: translatey(-10px);
+    }
+    100% {
+      transform: translatey(0px);
+    }
   }
+
+.resumeIcon1 {
+
+    animation-delay: .3s;
+    position: relative;
+    animation: 3s infinite alternate floating;
+  }
+  .resumeIcon2 {
+
+    position: relative;
+    animation: 2s infinite alternate floating;
+    animation-delay: .5s;
+  }
+  .resumeIcon3 {
+
+    position: relative;
+    animation: 3s infinite alternate floating;
+    animation-delay: .2s;
+  }
+  .resumeIcon4 {
+
+    position: relative;
+    animation: 3s infinite alternate floating;
+    animation-delay: .6s;
+  }
+  .resumeIcon5 {
+
+    position: relative;
+    animation: 4s infinite alternate floating;
+  }
+  .resumeIcon6 {
+
+    position: relative;
+    animation: 6s infinite alternate floating;
+  }
+  .resumeIcon7 {
+
+    position: relative;
+    animation: 5s infinite alternate floating;
+  }
+  .resumeIcon8 {
+    margin: 10px;
+    position: relative;
+    animation: 4s infinite alternate floating;
+  }
+  .resumeIcon9 {
+    margin: 10px;
+    position: relative;
+    animation: 3s infinite alternate floating;
+    animation-delay: .5s;
+  }
+  .resumeIcon10 {
+    margin: 10px;
+    position: relative;
+    animation: 3s infinite alternate floating;
+  }
+  .resumeIcon11 {
+    margin: 10px;
+    position: relative;
+    animation: 5s infinite alternate floating;
+  }
+  .resumeIcon12 {
+    margin: 10px;
+    position: relative;
+    animation: 3s infinite alternate floating;
+  }
+
+
+
+
+
+
+

@@ -1,8 +1,12 @@
 
 .about-body {
+  
     padding: 3em;
-    height: 87vh;
-    
+    height: 80vh;
+    background-color: rgb(20, 20, 20) !important;
+    border-radius: 10px!important;
+    border: 1px solid rgb(0, 255, 234) !important;
+    box-shadow: 0px 1px 10px rgb(0, 255, 234) inset, 0px 10px 15px rgba(0, 0, 0, 0.363)!important;
   }
 .about-body h1 {
 
