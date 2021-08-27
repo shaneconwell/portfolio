@@ -20,7 +20,7 @@
    npm i
    ```
   ## Usage
-  A link to the deployed application can be found [here](https://shaneconwell.github.io/react-portfolio/).
+  A link to the deployed application can be found [here](https://shaneconwell.github.io/portfolio/).
 
 ![Screenshot](https://res.cloudinary.com/dllm7cfrg/image/upload/v1628222261/Screen_Shot_2021-08-05_at_11.57.11_PM_nzzq7o.png)
 
