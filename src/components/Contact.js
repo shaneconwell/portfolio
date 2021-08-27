@@ -1,79 +1,52 @@
 import React from "react";
 import "../styles/Contact.css";
-
-
-
-function Form() {
-
-  return (
-    <div id="my-contact" className="container text-center my-5">
-				<h1 id="contact" className="mb-3 ">
-					Contact
-				</h1>
-				<form>
-					<div className="form-group">
-						<div className="row">
-							<div className="col-12 col-sm-12 col-md-6 mx-auto">
-								<input
-									type="text"
-									name="name"
-									className="form-control form-control-lg"
-									id="name"
-									placeholder="Name"
-								/>
-							</div>
-						</div>
-					</div>
-					<div className="form-group hidden">
-						<div className="row">
-							<div className="p-3 col-12 col-sm-12 col-md-6 mx-auto">
-								<input
-									type="email"
-									name="_replyto"
-									className="form-control form-control-lg"
-									id="exampleFormControlInput1"
-									placeholder="Your email"
-								/>
-							</div>
-						</div>
-					</div>
-					<div className="form-group hiddenRight">
-						<div className="row">
-							<div className=" p-3col-12 col-sm-12 col-md-6 mx-auto">
-								<textarea
-									name="message"
-									className="form-control form-control-lg"
-									id="exampleFormControlTextarea1"
-									rows="3"
-									placeholder="Write your message..."
-								/>
-							</div>
-						</div>
-					</div>
-					<div className="row text-md-right p-3 text-sm-center">
-						<div className="col-12 col-sm-12 col-md-6 mx-auto">
-							<button
-								type="submit"
-								className="btn btn-primary mb-2 hidden">
-								Submit
-							</button>
-						</div>
-					</div>
-				</form>
-			</div>
-
-  );
-}
+import { Container, Row, Col } from "react-bootstrap";
+import {FaSmileBeam, FaExternalLinkAlt , FaLinkedin , FaGithub, FaAt, FaPhoneAlt} from "react-icons/fa";
 
 export default function Contact() {
   return (
-    <div className="contact-body container-lg">
-      <div className="row">
-        <div>
-          <Form />
+    <div className="container-lg">
+      {/* <div className="row"> */}
+	 
+      <Row className="contact-body">
+	  {/* <Col> 
+	  <FaSmileBeam className="contact-smile" />
+	  </Col> */}
+	   <h1 className="contact-header">Hey Lets Talk!</h1>
+        <Col className="contact-resume">
+		<ul className="list-unstyled">
+            <li>
+              <a href="mailto:sconwell.dev@gmail.com">
+			  <FaAt /> sconwell.dev@gmail.com 
+			  </a>
+            </li>
+            <li>
+              <a href="tel:+12152647117">
+			  <FaPhoneAlt /> 215 264 7117
+			  </a>
+            </li>
+          </ul>
+          <ul className="list-unstyled">
+            <li>
+              <a href="https://docs.google.com/document/d/1frm8bVlzhmVL_7a2pY48iDWl1KenFdaXcwdb1Xo7LQo/edit?usp=sharing">
+                <FaExternalLinkAlt /> Resume
+              </a>
+            </li>
+            <li>
+              <a href="https://docs.google.com/document/d/1frm8bVlzhmVL_7a2pY48iDWl1KenFdaXcwdb1Xo7LQo/edit?usp=sharing">
+                <FaLinkedin /> LinkedIn
+              </a>
+            </li>
+            <li>
+              <a href="https://docs.google.com/document/d/1frm8bVlzhmVL_7a2pY48iDWl1KenFdaXcwdb1Xo7LQo/edit?usp=sharing">
+                <FaGithub /> Github
+              </a>
+            </li>
+          </ul>
+        </Col>
 
-        </div>
-      </div>
+      </Row>
+      {/* </div> */}
     </div>
   );
 }

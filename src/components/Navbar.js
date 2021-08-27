@@ -16,7 +16,7 @@ function Navbar() {
       <ul className="navbar-nav">
         <li className="nav-item">
         <Link className="nav-link" aria-current="page" href="#" to="/">About Me </Link>
-          {/* <a >About Me</a> */}
+          
         </li>
         <li className="nav-item">
           <Link className="nav-link" aria-current="page" href="#" to="/projects">Projects</Link>
@@ -24,9 +24,9 @@ function Navbar() {
         <li className="nav-item">
         <Link className="nav-link" aria-current="page" href="#" to="/contact">Contact</Link>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
         <Link className="nav-link" aria-current="page" href="#" to="/resume">Resume</Link>
-        </li>
+        </li> */}
 
       </ul>
     </div>

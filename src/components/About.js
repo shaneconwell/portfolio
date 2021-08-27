@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/About.css";
 import {Container, Row, Col, Image} from "react-bootstrap"
+import { Link } from 'react-router-dom';
 
 export default function About() {
   return (
@@ -20,7 +21,7 @@ export default function About() {
           top of tech trends, experiment and learn new technologies. 
           </p>
           <p>
-          Check out my projects page to see what i'm working on!
+          Check out my  <Link className="project-link" aria-current="page" href="#" to="/projects">Projects</Link> page to see what I'm working on!
           </p>
    
   </Col>

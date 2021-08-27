@@ -16,7 +16,9 @@ function Footer() {
           </a>
           </div>
         <div className="footer-copyright col-md-4">
-          <p>Copyright © 2021 Shane Conwell</p>
+          <p>
+            {/* Copyright © 2021 Shane Conwell */}
+            </p>
         </div>
         <div className="footer-social col-md-4">
         <a href="https://github.com/shaneconwell">
