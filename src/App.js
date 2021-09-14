@@ -10,13 +10,35 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 
+import { createTheme, ThemeProvider } from '@material-ui/core/styles';
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      light: '##d9fffe',
+      main: '#00FFFF',
+      dark: '#008c82',
+      contrastText: '#000',
+    },
+    secondary: {
+      light: '#ffbf66',
+      main: '#d46f4d',
+      dark: '#430c05',
+      contrastText: '#FFF',
+    },
+    
+  },
+});
+
 // In our main App component, we are rendering only single instances of Header and Navbar and several instances of Card
 function App() {
   return (
     <HashRouter basename='/'>
       <div className="min-100-vh">
         <Background />
+        <ThemeProvider theme={theme}>
         <Navbar />
+        </ThemeProvider>
 
         <Switch>
           {/* <Route exact path="/"component={Home} /> */}

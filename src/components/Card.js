@@ -40,9 +40,9 @@ function Card(props) {
                       <li>
                       {project.bp2}
                       </li>
-                      <li>
+                      {/* <li>
                       {project.bp3}
-                      </li>
+                      </li> */}
                     </ul>
                     <p className="projectTech">Technologies Used: {project.tech}</p>
                     <a href={project.github}>
