@@ -1,4 +1,4 @@
-.projects-body h1 {
+.project-body h1 {
   /* color: rgb(0, 0, 0);
       color: rgb(0, 255, 234); */
   font-size: 2.5rem;
@@ -12,17 +12,31 @@
   font-family: "Jockey One", sans-serif;
   color: #fff;
 }
+.project-container{
+  justify-content: center!important;
+}
 .projectCard {
   color: rgb(0, 255, 234) !important;
   font-family: "Jura", sans-serif;
   background-color: rgb(20, 20, 20) !important;
   border-radius: 10px !important;
   border: 1px solid rgb(0, 255, 234) !important;
-  margin: 1rem !important;
+  margin: 20px 200px 20px 200px !important;
+  padding: 2em !important;
   box-shadow: 0px 1px 10px rgb(0, 255, 234) inset,
     0px 10px 15px rgba(0, 0, 0, 0.363) !important;
-  align-items: center;
+    display: block!important;
+    
+}
+.projectImg {
+  height: 300px !important;
+  margin: auto
 
+}
+
+.projectLinks {
+  float: right;
+  margin: 1em !important;
 }
 .projectCard:hover {
   color: rgb(0, 255, 234) !important;
@@ -34,9 +48,10 @@
 .project-decription p {
   font-family: "Jura", sans-serif;
   font-size: 1rem;
+  align-items: left !important;
 }
 .projectTech {
-  font-size: .75rem!important;
+  font-size: 0.75rem !important;
 }
 .github {
   height: 3em;
@@ -47,4 +62,18 @@
   font-size: 1.3rem;
   font-family: "Jockey One", sans-serif;
   color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+  .projectCard {
+    margin: 20px 100px 20px 100px !important;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .projectImg {
+    height: 200px !important;
+  }
+  .projectCard {
+    margin: 20px 10px 20px 10px !important;
+  }
 }

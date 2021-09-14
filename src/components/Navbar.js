@@ -102,18 +102,8 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {/* <li className="nav-item">
-        <Link className="nav-link" aria-current="page" href="#" to="/resume">Resume</Link>
-        </li> */}
           <ul>
-            {/* <Menu
-              className="justify-content-end"
-              id="simple-menu"
-              anchorEl={anchorEl}
-              keepMounted
-              open={Boolean(anchorEl)}
-              onClose={handleClose}
-            > */}
+   
               <StyledMenu
         id="customized-menu"
         anchorEl={anchorEl}
